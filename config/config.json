@@ -1,0 +1,31 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "my-auth-app-final",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": 5432,
+    "logging": true,
+    "define": {
+      "timestamps": true,
+      "underscored": false,
+      "freezeTableName": false
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "my-auth-app-final-test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": 5432,
+    "logging": false,
+    "define": {
+      "timestamps": true,
+      "underscored": false,
+      "freezeTableName": false
+    }
+  }
+
+}

@@ -25,7 +25,7 @@ app.get('/health', (req, res) => {
 });
 
 // API Routes
-app.use('/api/auth', require('./src/routes/authRoutes'));
+//app.use('/api/auth', require('./routes/authRoutes'));
 
 // Serve Swagger UI from public folder with cache control
 app.get('/api-docs', (req, res) => {
